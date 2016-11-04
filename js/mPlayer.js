@@ -1,12 +1,8 @@
-<<<<<<< HEAD
-var audio = new Audio("");
-audio.play();
-=======
 var playB = document.getElementById('playB');
 
 
 var isPlaying = false;
-var audio = new Audio("audio/bestmusic.mp3");
+var audio = new Audio("audio/RetroVision-Puzzle.mp3");
 
 
 playB.onclick = function(){
@@ -24,4 +20,3 @@ playB.onclick = function(){
     return;
   }
 }
->>>>>>> origin/master
