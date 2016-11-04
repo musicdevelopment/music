@@ -25,9 +25,21 @@ body {
 	background-color: #1C232B;
 }
 
-.mPlayer #playB {
-	top: 0;
+#mIcon {
+	position: relative;
+	top: 0px;
+	left: 0px;
 }
+
+#playB {
+	position: absolute;
+	top: 0px;
+	margin-top: 10px;
+	margin-left: 10px;
+
+}
+
+
 
 
 .frontPageBar {
