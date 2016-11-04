@@ -10,10 +10,22 @@ body
 	line-height: l.sem:
 }
 
-img
+
+.frontPageBar
 {
-	width : 100%
+	width: 100%;
+	background-color: #1C232B;
 }
+
+
+.frontPageBar {
+  text-align: center;
+  vertical-align: middle;
+}
+.frontPageBar * {
+  vertical-align: middle;
+}
+
 
 h1
 {
@@ -52,9 +64,3 @@ a:hover, a:active
 {
 	color: blacks;
 }
-
-
-
-
-
-
