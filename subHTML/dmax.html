@@ -1,7 +1,44 @@
 <!DOCTYPE html>
 <html>
-	<head>
-		<tittle>Sign in, coming soon...</tittle>
-		<link rel="stylesheet" type="text/css" href="style.css">
-	</head>
+<head>
+
+    <style type="text/css">
+    
+        body{ font-family: fantasy; font-size:15px; }
+        div#back_glob{ background-color: white; border:1px solid #25b2d5; width: 350px; margin: 0 auto; }
+        input{ display: block; margin:10px; }
+        div#back_header{ background-color:25b2d5; text-align: center; font-size: 22px; font-weight: bold; color:white; padding:20px; }
+        input[type=text], input[type=password]{font-size:15px; padding:10px; border-radius: 3px; border:1px solid #ddd; }
+        input[type=submit]{ background-color: 25b2d5; padding: 5px 10px 5px 10px; border-radius: 3px; border:1px solid #319db8; color:white; font-weight: bold; }
+        div#back_form { display: flex; justify-content: center;  }
+        
+        
+    </style>
+    
+</head>
+<body>
+    
+    <div id="back_glob">
+    
+    
+    <div id="back_header">
+            LOGIN
+        </div>
+        
+    <div id="back_form">
+        
+            <form method="post">
+                <input type="text" name="username" placeholder="username" />
+                <input type="password" name="pass" placeholder="password" />
+                <input type="submit" name="valid" value="Login" />
+            </form>
+        
+    </div>    
+    
+    
+   </div>
+    
+    
+</body>
+
 </html>
