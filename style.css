@@ -21,6 +21,14 @@ body {
 	background-color: #1C232B;
 }
 
+.mPlayer {
+	background-color: #1C232B;
+}
+
+.mPlayer #playB {
+	top: 0;
+}
+
 
 .frontPageBar {
   text-align: center;
