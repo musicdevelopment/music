@@ -1,2 +1,2 @@
-var audio = new Audio("audio/bestmusic.mp3");
+var audio = new Audio("");
 audio.play();
