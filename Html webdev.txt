@@ -1,8 +1,0 @@
-<!DOCTYPE html>
-<html>
-	<head>
-		<tittle>Isuzu Ute Australia</tittle>
-	</head>
-
-
-</html>
