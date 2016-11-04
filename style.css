@@ -10,6 +10,10 @@ body
 	line-height: l.sem:
 }
 
+body {
+	margin: 0;
+}
+
 
 .frontPageBar
 {
