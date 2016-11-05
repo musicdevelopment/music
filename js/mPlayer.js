@@ -2,6 +2,9 @@ var playB = document.getElementById('playB');
 var skipCu = document.getElementById('skipCu');
 var backCu = document.getElementById('backCu');
 
+var volUp = document.getElementById('volUp');
+var volDown = document.getElementById('volDown');
+
 
 var playerIco = document.getElementById('mIcon');
 
@@ -42,6 +45,23 @@ skipCu.onclick = function(){
 backCu.onclick = function(){
   audio.currentTime -= 5;
 }
+
+
+volUp.onclick = function(){
+  audio.volume += 0.1;
+}
+
+volDown.onclick = function(){
+  audio.volume -= 0.1;
+}
+
+
+
+
+
+
+
+
 
 function init(){
     shit = parseInt(audio.currentTime) / parseInt(audio.duration);
