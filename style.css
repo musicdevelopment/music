@@ -22,6 +22,7 @@ body {
 }
 
 .mPlayer {
+	position: relative;
 	background-color: #1C232B;
 }
 
@@ -31,11 +32,55 @@ body {
 	left: 0px;
 }
 
-#playB {
+#playerBu #playB {
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+#playerBu #backCu {
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+#playerBu #skipCu {
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+#playerBu {
 	position: absolute;
 	top: 0px;
+	left: 250px;
 	margin-top: 10px;
 	margin-left: 10px;
+}
+
+.progressbar-Con * {
+	position: relative;;
+}
+
+.progressbar-Con #curr_tim{
+	color: white;
+	position: absolute;
+	top: 70px;
+	left: 110px
+}
+
+.progressbar-Con #dur_tim{
+	color: white;
+	position: absolute;
+	top: 70px;
+	left: 590px
+}
+
+
+.progressbar-Con #progressBar {
+	position: absolute;
+	bottom: 0;
+	left:180px;
+	background-color: blue;
+	-webkit-appearance: none;
+   appetance: none;
 }
 
 

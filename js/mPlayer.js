@@ -1,12 +1,19 @@
 var playB = document.getElementById('playB');
+var skipCu = document.getElementById('skipCu');
+var backCu = document.getElementById('backCu');
+
+
+var playerIco = document.getElementById('mIcon');
 
 var progressBar = document.getElementById('progressBar');
 
 var isPlaying = false;
-var audio = new Audio("audio/RetroVision-Puzzle.mp3");
+var audio = new Audio("audio/Robby East - Leap of Faith (Original Mix).mp3");
 audio.ontimeupdate = function(){
   init();
 }
+
+
 
 
 var shit = 0;
@@ -27,9 +34,16 @@ playB.onclick = function(){
   }
 }
 
+
+skipCu.onclick = function(){
+  audio.currentTime += 5;
+}
+
+backCu.onclick = function(){
+  audio.currentTime -= 5;
+}
+
 function init(){
-    console.log(shit);
-    //audio.value = parseInt(audio.currentTime) / parseInt(audio.duration);
     shit = parseInt(audio.currentTime) / parseInt(audio.duration);
     progressBar.value = shit;
 }
