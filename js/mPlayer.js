@@ -1,5 +1,50 @@
+// Song Object
 
 
+createSong = function(src, id, search, name, img){
+  var self = {
+    src:src,
+    id:id,
+    search:search,
+    name:name,
+    img:img,
+  }
+
+
+  self.doc = document.getElementById(self.id)
+
+  self.doc.onclick = function(){
+    self.play();
+  }
+
+
+
+
+  self.play = function(){
+    playerIco.src = self.img;
+    audio.src = self.src;
+    audio.play();
+  }
+
+
+
+  return self;
+}
+
+
+
+
+
+// Create Songs
+
+
+// var (sang navn) = createSong(audio path  ,  id til documentet,  søke navn (små bokstaver),  sangens Navn  ,   iconet / bildet til sangen  )
+
+
+
+
+var RobbyEast = createSong("audio/Robby East - Leap of Faith (Original Mix).mp3", 'Robby-East', "leap of faith", "Leap Of Faith", "images/artists/OnTheHouse.png");
+var RetroV = createSong("audio/RetroVision-Puzzle.mp3", 'RetroV-Puzz', "puzzle", "Puzzle", "images/artists/OnTheHouse.png");
 
 // Grab all player buttons
 
@@ -13,37 +58,6 @@ var volUp = document.getElementById('volUp');
 
 var volDown = document.getElementById('volDown');
 
-
-
-// Grab songs
-
-
-
-
-var RobbyEast = document.getElementById('Robby-East');
-var trapN = document.getElementById('trapN');
-var RetroV = document.getElementById('RetroV-Puzz');
-
-
-
-
-RobbyEast.onclick = function(){
-  playerIco.src = "images/artists/OnTheHouse.png";
-  audio.src = "audio/Robby East - Leap of Faith (Original Mix).mp3";
-  audio.play();
-}
-
-trapN.onclick = function(){
-  playerIco.src = "images/artists/trapN.png";
-  audio.src = "audio/music2.mp4";
-  audio.play();
-}
-
-RetroV.onclick = function(){
-  playerIco.src = "images/artists/OnTheHouse.png";
-  audio.src = "audio/RetroVision-Puzzle.mp3";
-  audio.play();
-}
 
 
 // Grab Icon and progress bar
@@ -189,6 +203,6 @@ function update(){
     audio.volume -= 0.1;
   }
 
-  console.clear();
+
 }
 setInterval(update, 1000/4);
