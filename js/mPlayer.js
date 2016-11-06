@@ -46,6 +46,9 @@ createSong = function(src, id, search, name, img){
 var RobbyEast = createSong("audio/Robby East - Leap of Faith (Original Mix).mp3", 'Robby-East', "leap of faith", "Leap Of Faith", "images/artists/OnTheHouse.png");
 var RetroV = createSong("audio/RetroVision-Puzzle.mp3", 'RetroV-Puzz', "puzzle", "Puzzle", "images/artists/OnTheHouse.png");
 
+
+
+
 // Grab all player buttons
 
 var playB = document.getElementById('playB');
