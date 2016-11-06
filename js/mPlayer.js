@@ -23,7 +23,8 @@ var volDown = document.getElementById('volDown');
 var RobbyEast = document.getElementById('Robby-East');
 var trapN = document.getElementById('trapN');
 var RetroV = document.getElementById('RetroV-Puzz');
-
+var NoCopyrightSounds = document.getElementById('NoCopyrightSounds');
+var NCS = document.getElementById('NCS');
 
 
 
@@ -42,6 +43,18 @@ trapN.onclick = function(){
 RetroV.onclick = function(){
   playerIco.src = "images/artists/OnTheHouse.png";
   audio.src = "audio/RetroVision-Puzzle.mp3";
+  audio.play();
+}
+
+NoCopyrightSounds.onclick = function(){
+  playerIco.src = "images/artists/NCS.png";
+  audio.src = "audio/Wakingup.mp3";
+  audio.play();
+}
+
+NCS.onclick = function(){
+  playerIco.src = "images/artists/NCS.png";
+  audio.src = "audio/shine.mp3";
   audio.play();
 }
 
@@ -189,6 +202,6 @@ function update(){
     audio.volume -= 0.1;
   }
 
-  console.clear();
+ 
 }
 setInterval(update, 1000/4);
