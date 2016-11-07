@@ -83,7 +83,7 @@ var dur_tim = document.getElementById('dur_tim');
 
 
 var isPlaying = false;
-var audio = new Audio("audio/RetroVision-Puzzle.mp3");
+var audio = new Audio("");
 
 
 
