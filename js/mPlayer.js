@@ -45,7 +45,10 @@ createSong = function(src, id, search, name, img){
 
 var RobbyEast = createSong("audio/Robby East - Leap of Faith (Original Mix).mp3", 'Robby-East', "leap of faith", "Leap Of Faith", "images/artists/OnTheHouse.png");
 var RetroV = createSong("audio/RetroVision-Puzzle.mp3", 'RetroV-Puzz', "puzzle", "Puzzle", "images/artists/OnTheHouse.png");
-
+var shine = createSong("audio/shine.mp3", "NoCopyrightSounds", "shine", "Shine", "images/artists/NCS.png");
+var Wakingup = createSong("audio/Wakingup.mp3", "NCS", "wakingup", "Wakingup", "images/artists/NCS.png");
+var crest = createSong("audio/Codeko - Crest [NCS Release].mp3", "crest", "crest", "Crest", "images/artists/NCS.png");
+var thisLife = createSong("audio/OLWIK - This Life (feat. Johnning) [NCS Release].mp3", "thisLife", "thislife", "This Life", "images/artists/NCS.png");
 
 
 
