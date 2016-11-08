@@ -1,6 +1,7 @@
 // Song Object
 
 
+
 createSong = function(src, id, search, name, img){
   var self = {
     src:src,
@@ -50,7 +51,7 @@ var Wakingup = createSong("audio/Wakingup.mp3", "NCS", "wakingup", "Wakingup", "
 var crest = createSong("audio/Codeko - Crest [NCS Release].mp3", "crest", "crest", "Crest", "images/artists/NCS.png");
 var thisLife = createSong("audio/OLWIK - This Life (feat. Johnning) [NCS Release].mp3", "thisLife", "thislife", "This Life", "images/artists/NCS.png");
 var whatislove = createSong("audio/whatislove.mp3", "whatislove", "whatislove", "whatislove", "images/artist/whatislove.png");
-var nevergonnegiveyouup = createSong("audio/nevergonnegiveyouup.mp3", "nevergonnegiveyouup", "nevergonnegiveyouup", "nevergonnegiveyouup", "images/artist/rick.png");
+var nevergonnegiveyouup = createSong("audio/nevergonnegiveyouup.mp3", "rick", "nevergonnegiveyouup", "nevergonnegiveyouup", "images/artists/rick.png");
 
 
 
@@ -67,7 +68,6 @@ var volUp = document.getElementById('volUp');
 var volDown = document.getElementById('volDown');
 
 
-
 // Grab Icon and progress bar
 
 var playerIco = document.getElementById('mIcon');
@@ -79,6 +79,8 @@ var progress_value = 0;
 
 var curr_tim = document.getElementById('curr_tim');
 var dur_tim = document.getElementById('dur_tim');
+
+
 
 //Define audio
 
