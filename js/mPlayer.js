@@ -49,6 +49,7 @@ var shine = createSong("audio/shine.mp3", "NoCopyrightSounds", "shine", "Shine",
 var Wakingup = createSong("audio/Wakingup.mp3", "NCS", "wakingup", "Wakingup", "images/artists/NCS.png");
 var crest = createSong("audio/Codeko - Crest [NCS Release].mp3", "crest", "crest", "Crest", "images/artists/NCS.png");
 var thisLife = createSong("audio/OLWIK - This Life (feat. Johnning) [NCS Release].mp3", "thisLife", "thislife", "This Life", "images/artists/NCS.png");
+var whatislove = createSong("audio/whatislove.mp3", "whatislove", "whatislove", "whatislove", "images/artist/whatislove.png")
 
 
 
