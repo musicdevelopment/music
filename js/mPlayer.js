@@ -1,5 +1,8 @@
 // Song Object
 
+var audioBib = [];
+
+
 
 
 createSong = function(src, id, search, name, img){
@@ -10,6 +13,13 @@ createSong = function(src, id, search, name, img){
     name:name,
     img:img,
   }
+  
+  
+  
+   var auioBibo = {
+     url:self.src,
+     name:self.name,
+   }
 
 
   self.doc = document.getElementById(self.id)
@@ -26,6 +36,9 @@ createSong = function(src, id, search, name, img){
     audio.src = self.src;
     audio.play();
   }
+  
+  
+  audioBib[audioBib.length] = auioBibo;
 
 
 
