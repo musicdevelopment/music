@@ -119,6 +119,14 @@ var volDPress = false;
 //Init when time updates
 
 
+
+
+function playSong(num){
+  audio.src = audioBib[num].url;
+
+}
+
+
 audio.ontimeupdate = function(){
   init();
 }
