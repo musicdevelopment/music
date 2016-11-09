@@ -36,6 +36,7 @@ createSong = function(src, id, search, name, img){
     playerIco.src = self.img;
     audio.src = self.src;
     audio.play();
+    audio.loop = true;
   }
   
   
