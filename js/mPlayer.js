@@ -19,6 +19,7 @@ createSong = function(src, id, search, name, img){
    var auioBibo = {
      url:self.src,
      name:self.name,
+     play:self.play;
    }
 
 
